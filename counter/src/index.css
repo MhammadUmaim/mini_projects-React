@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: white;
+}
+
+.light div {
+  background-color: rgb(135, 135, 135);
+  color: white;
+}
+
+.light button {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.626);
+  border: 2px solid black;
+}
+
+.dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: black;
+}
+
+.dark div {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+.dark button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
