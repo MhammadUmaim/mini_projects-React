@@ -76,7 +76,7 @@ const App = () => {
           value={city}
         />
         <button
-          className='  h-10 w-35 cursor-pointer active:scale-95 px-2.5 py-2 rounded-full bg-pink-400 text-white hover:bg-pink-500 transition shadow-md hover:-translate-y-0.5 text-sm '
+          className='  h-10 w-30 cursor-pointer active:scale-95 px-2.5 py-2 rounded-full bg-pink-400 text-white hover:bg-pink-500 transition shadow-md hover:-translate-y-0.5 text-sm '
         >
           check weather
         </button>
